@@ -1,0 +1,69 @@
+{
+  "notebooks": [
+    {
+      "notebook": "features/01_feature_engineering.ipynb",
+      "executed_code_cells": 7,
+      "explanations": 8
+    },
+    {
+      "notebook": "research/01_data_overview.ipynb",
+      "executed_code_cells": 7,
+      "explanations": 8
+    },
+    {
+      "notebook": "training/01_linear.ipynb",
+      "executed_code_cells": 4,
+      "explanations": 6
+    },
+    {
+      "notebook": "training/02_catboost.ipynb",
+      "executed_code_cells": 3,
+      "explanations": 4
+    },
+    {
+      "notebook": "training/03_dcn.ipynb",
+      "executed_code_cells": 5,
+      "explanations": 6
+    },
+    {
+      "notebook": "training/04_comparison.ipynb",
+      "executed_code_cells": 5,
+      "explanations": 6
+    }
+  ],
+  "dictionary_features": 50,
+  "models": [
+    "catboost_base",
+    "catboost_fe",
+    "dcn_base",
+    "dcn_fe",
+    "linear_base",
+    "linear_fe",
+    "mlp_base",
+    "mlp_fe",
+    "rolling_mean7",
+    "seasonal_lag7",
+    "zero"
+  ],
+  "paired_families": [
+    "linear",
+    "catboost",
+    "dcn",
+    "mlp"
+  ],
+  "split_rows": {
+    "train": 600000,
+    "valid": 245758,
+    "test": 245784
+  },
+  "checks": [
+    "Все ячейки выполнены без ошибок",
+    "Словарь и подписи покрывают все признаки",
+    "Относительные ссылки существуют",
+    "Границы периодов разделены по времени",
+    "Кандидаты известны до дня прогноза",
+    "Внутри пар одинаковы параметры и данные",
+    "Ключи и цели прогнозов совпадают с отложенными данными",
+    "Сохранённая MAE совпадает с пересчитанной"
+  ]
+}

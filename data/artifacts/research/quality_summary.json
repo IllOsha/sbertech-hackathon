@@ -1,0 +1,15 @@
+{
+  "sales_daily_keys": 970677,
+  "sales_keys_without_stock_pct": 9.365731340085322,
+  "sales_keys_with_nonpositive_stock_pct": 33.66145484028158,
+  "stock_conflicts": {
+    "daily_stock_keys": 4884198,
+    "repeated_keys": 1039305,
+    "conflicting_keys": 804588,
+    "conflicting_pct": 16.47328793795829
+  },
+  "missing_dates": {
+    "sales": 0,
+    "stock": 0
+  }
+}

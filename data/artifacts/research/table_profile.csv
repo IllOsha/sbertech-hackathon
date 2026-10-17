@@ -1,0 +1,3 @@
+table,rows,dates,date_min,date_max,exact_duplicate_rows,extra_rows_over_daily_key
+sales,1492370,943,2024-01-01,2026-07-31,0,521693
+stock,6153988,962,2023-12-13,2026-07-31,427990,1269790

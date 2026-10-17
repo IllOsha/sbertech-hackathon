@@ -1,0 +1,16 @@
+{
+  "model": "seasonal_lag7",
+  "family": "reference",
+  "feature_set": "reference",
+  "features": [
+    "qty_lag_7"
+  ],
+  "parameters": {
+    "rule": "seasonal_lag7"
+  },
+  "seed": 42,
+  "train_rows": 600000,
+  "train_end": "2026-06-05",
+  "valid_start": "2026-06-06",
+  "test_start": "2026-07-04"
+}

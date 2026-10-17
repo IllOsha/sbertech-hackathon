@@ -1,0 +1,16 @@
+# Versions used for baseline models and temporal analysis.
+numpy==2.5.0
+pandas==3.0.3
+pyarrow==24.0.0
+matplotlib==3.11.0
+seaborn==0.13.2
+scikit-learn==1.9.0
+catboost==1.2.10
+torch==2.13.0
+nbformat==5.10.4
+nbclient==0.11.0
+jupyterlab>=4,<5
+ipykernel>=6,<8
+
+scipy==1.18.1
+statsmodels==0.15.0

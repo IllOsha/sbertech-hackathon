@@ -1,0 +1,30 @@
+{
+  "model": "dcn_base",
+  "family": "dcn",
+  "feature_set": "base",
+  "features": [
+    "warehouse_name",
+    "article",
+    "category_lvl_1",
+    "category_lvl_2",
+    "characteristic"
+  ],
+  "parameters": {
+    "epochs": 5,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_widths": [
+      64,
+      32
+    ],
+    "target_transform": "log1p",
+    "loss": "MSE(log1p quantity)",
+    "cross_layers": 2
+  },
+  "seed": 42,
+  "train_rows": 600000,
+  "train_end": "2026-06-05",
+  "valid_start": "2026-06-06",
+  "test_start": "2026-07-04"
+}

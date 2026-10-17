@@ -1,0 +1,17 @@
+column,table,dtype,unique,missing,missing_pct
+date,sales,datetime64[us],943,0,0.0
+composite_division,sales,category,16,0,0.0
+cities_name,sales,category,209,0,0.0
+warehouse_name,sales,category,11,0,0.0
+category_lvl_1,sales,category,14,0,0.0
+category_lvl_2,sales,category,51,0,0.0
+category_lvl_3,sales,category,1,1491432,99.93714695417356
+article,sales,category,799,0,0.0
+characteristic,sales,category,61,0,0.0
+quantity,sales,float64,59,0,0.0
+sales_sum,sales,float64,1492367,3,0.00020102253462613161
+discount_sum,sales,float64,1175415,316955,21.238365820808514
+date,stock,datetime64[us],962,0,0.0
+warehouse_name,stock,category,11,0,0.0
+article,stock,category,799,0,0.0
+stock,stock,int64,884,0,0.0

@@ -1,0 +1,51 @@
+feature,group,available_by,train_missing_share,train_unique
+warehouse_name,identity,forecast time,0.0,11
+article,identity,forecast time,0.0,799
+category_lvl_1,identity,forecast time,0.0,15
+category_lvl_2,identity,forecast time,0.0,52
+characteristic,identity,forecast time,0.0,62
+article_warehouse,crosses,forecast time,0.0,8774
+article_dow,crosses,forecast time,0.0,5593
+warehouse_dow,crosses,forecast time,0.0,77
+dow,calendar,forecast time,0.0,7
+month,calendar,forecast time,0.0,12
+day_of_month,calendar,forecast time,0.0,31
+day_of_year,calendar,forecast time,0.0,366
+week_of_year,calendar,forecast time,0.0,52
+year,calendar,forecast time,0.0,3
+is_weekend,calendar,forecast time,0.0,2
+dow_sin,calendar,forecast time,0.0,7
+dow_cos,calendar,forecast time,0.0,4
+month_sin,calendar,forecast time,0.0,8
+month_cos,calendar,forecast time,0.0,8
+pair_age_days,calendar,forecast time,0.0,905
+metadata_known,calendar,forecast time,0.0,2
+qty_lag_1,history,t-1,0.0,52
+qty_lag_7,history,t-1,0.00606,46
+qty_lag_14,history,t-1,0.013426666666666667,47
+qty_lag_28,history,t-1,0.029256666666666667,48
+qty_roll_mean_7,history,t-1,0.0,223
+qty_roll_std_7,history,t-1,0.0009483333333333334,710
+qty_roll_max_7,history,t-1,0.0,65
+qty_nonzero_share_7,history,t-1,0.0,19
+qty_roll_mean_28,history,t-1,0.0,806
+qty_roll_std_28,history,t-1,0.0009483333333333334,3852
+qty_roll_max_28,history,t-1,0.0,71
+qty_nonzero_share_28,history,t-1,0.0,157
+history_missing,history,t-1,0.0,1
+qty_trend_7_28,history,t-1,0.0,4250
+stock_mean_lag_1,stock,t-1,0.2826633333333333,915
+stock_min_lag_1,stock,t-1,0.2826633333333333,338
+stock_max_lag_1,stock,t-1,0.2826633333333333,538
+stock_records_lag_1,stock,t-1,0.2826633333333333,4
+stock_missing_lag_1,stock,t-1,0.0,2
+stock_spread_lag_1,stock,t-1,0.2826633333333333,520
+stock_nonpositive_lag_1,stock,t-1,0.0,2
+stock_cover_7,stock,t-1,0.2826633333333333,6815
+sell_to_stock_lag_1,stock,t-1,0.2826633333333333,2385
+warehouse_qty_lag_1,aggregate,t-1,0.0,938
+warehouse_qty_lag_7,aggregate,t-1,0.0,934
+warehouse_qty_roll_mean_7,aggregate,t-1,0.0,2961
+article_qty_lag_1,aggregate,t-1,0.0,131
+article_qty_lag_7,aggregate,t-1,0.0,128
+article_qty_roll_mean_7,aggregate,t-1,0.0,675

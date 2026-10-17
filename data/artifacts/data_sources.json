@@ -1,0 +1,12 @@
+[
+  {
+    "file": "sales_dataset_hakaton_train.csv",
+    "bytes": 257634668,
+    "sha256": "34fe562dc1e0742aac1387d71ae20711e2f533fb56bbf34ce6363318e59a8e6b"
+  },
+  {
+    "file": "stock_dataset_hakaton_train.csv",
+    "bytes": 295578780,
+    "sha256": "d744cac7f82fb14ec42e12818f6257c07392ea315f050355d357d3865ec8b166"
+  }
+]

@@ -1,0 +1,42 @@
+# Исходные данные получают отдельно. Памятку о размещении храним в Git.
+/docs/datasets/**
+!/docs/datasets/README.md
+/hakaton.zip
+
+# Воспроизводимые таблицы, прогнозы и веса моделей.
+/data/processed/**
+!/data/processed/.gitkeep
+/data/models/
+catboost_info/
+
+# Окружения и локальные настройки. Пример конфигурации можно публиковать.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Кеши Python, Jupyter и инструментов разработки.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Файлы ОС, редакторов и временные копии.
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# data/artifacts/, PNG, отчёты CSV/JSON и выполненные .ipynb храним в Git.
