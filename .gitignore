@@ -40,3 +40,6 @@ Thumbs.db
 *~
 
 # data/artifacts/, PNG, отчёты CSV/JSON и выполненные .ipynb храним в Git.
+
+# Generated forecast outputs and model artifacts
+data/artifacts/forecast/
